@@ -1,0 +1,95 @@
+/* Reset default margin and padding */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #F4F4F4;
+    color: #333;
+  }
+  
+  /* Header styles */
+  .header {
+    background-color: #007BFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .logo img {
+    width: 100px;
+    height: auto;
+  }
+  
+  .navigation a {
+    color: #0056b3;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .user-profile a {
+    font-size: 16px;
+    color: #0056b3;
+    text-decoration: none;
+
+  }
+  
+  /* Main dashboard styles */
+  .main-dashboard {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .announcements {
+    flex: 2;
+  }
+  
+  .announcement-card {
+    background-color: #FFFFFF;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .announcement-card h2 {
+    color: #0056b3;
+  }
+  
+  .read-more {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  .quick-links {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .quick-link {
+    background-color: #66B3FF;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  /* Footer styles */
+  .footer {
+    background-color: #F4F4F4;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .footer a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
